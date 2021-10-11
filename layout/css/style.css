@@ -1,0 +1,111 @@
+body {
+  min-height: 1500px;
+}
+.form-control {
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 40px auto;
+}
+.item-box {
+  position: relative;
+
+}
+.price-tag {
+  position: absolute;
+  background-color: #dc3545;
+  padding: 2px 9px;
+  left: 0px;
+  color: #FFF;
+  border-radius: 3px; 
+}
+/* start login page and signup */
+.login-page form {
+  max-width: 300px;
+  margin: auto;
+}
+form input {
+  margin-bottom: 5px;
+}
+
+.login-page h1{
+  color: #c3c3c3;
+  cursor: pointer;
+
+}
+.login-page .active {
+  color:#0d6efd
+  
+}
+.login-page .signup {
+  display: none;
+}
+.upper-bar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+.card {
+  display: block;
+}
+.information .row {
+  width: 50%;
+}
+.information .btn {
+  margin: 10px 5px;
+  border: 1px solid #333;
+  
+}
+/* dash board  */
+.item-info ul li {
+  padding: 10px;
+}
+.item-info ul li:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+.add-com h3 {
+  margin: 0 0 10px;
+}
+.add-com textarea {
+  display: block;
+  width: 300px;
+  height: 120px;
+  margin-bottom: 10px;
+  resize: none;
+}
+.comment-box {
+  margin-bottom: 50px;
+}
+.comment-box img {
+  border-radius: 50%;
+  max-width: 100px;
+  display: block;
+  margin: auto;
+}
+.comment-box .lead {
+  background-color: #EEE;
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.comment-box .lead::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 12px;
+  border-style: solid;
+  border-color: transparent #EEE transparent transparent;
+  top: 13px;
+  left: -24px;
+}
+.review {
+  position: absolute;
+  background-color: #0a58ca;
+  top: 29px;
+  border-radius: 4px;
+  color: #FFF;
+}
